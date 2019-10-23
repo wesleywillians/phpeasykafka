@@ -24,7 +24,7 @@
     "require": {
         "php": "^7.1",
         "psr/container": "*",
-        "ext-phprdkafka": "*"
+        "ext-rdkafka": "*"
     },
     "autoload": {
         "psr-4": {
