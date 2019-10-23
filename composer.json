@@ -1,0 +1,30 @@
+{
+    "name": "wesleywillians/phpeasykafka",
+    "description": "Abstraction layer of phprdkafka",
+    "type": "library",
+    "license": "MIT",
+    "keywords": [
+        "Client",
+        "Kafka"
+    ],
+    "authors": [
+        {
+            "name": "Wesley Willians",
+            "email": "wesleywillians@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^7.1",
+        "psr/container": "*",
+        "ext-phprdkafka": "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^6.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "PHPEasykafka\\": "src/"
+        }
+    }
+}
